@@ -1,0 +1,12 @@
+h1 {
+    color: rgb(210, 10, 10);
+    font-size: 30px;
+}
+p {
+    color: rgb(50, 50, 50);
+    font-size: 17px;
+}
+time{
+    font-size: 14px;
+    font-weight: bold;
+}
