@@ -1,32 +1,29 @@
 .container {
   background: linear-gradient(to right, rgb(204, 100, 100), #eee 20%);
-  height: 500px;
   border: 2px solid #c00;
   border-radius: 20px;
-  margin-bottom: 60px;
-  padding: 50px;
-  position: relative;
-  box-shadow: 1px 10px 10px rgb(80, 80, 80);
+  margin: 20px;
+  padding: 10px;
+  box-shadow: 1px 15px 15px rgb(80, 80, 80);
+  height: 550px;
+  display: flex;
+  flex-direction: column;
 }
 
 .title {
   color: #c00;
-  font-size: 60px;
-  margin: 20px;
+  font-size: 30px;
+  flex-grow: 1;
 }
 
 .pubDate {
   font-weight: bold;
-  font-size: 20px;
+  font-size: 12px;
+  flex-grow: 1;
 }
 
 p {
-  font-size: 30px;
+  font-size: 15px;
   color: rgb(80, 80, 80);
-}
-
-.image {
-  position: absolute;
-  top: 20px;
-  left: 20px;
+  flex-grow: 1;
 }
