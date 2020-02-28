@@ -1,9 +1,31 @@
 img {
-  width: 150px;
   border: 10px;
   border-style: solid;
   border-color: #c00;
   border-radius: 50%;
   box-shadow: 5px 20px 20px rgb(100, 100, 100);
-  margin-bottom: 30px;
+}
+
+@media screen and (min-width: 400px) {
+  img {
+    margin-bottom: 10px;
+    width: 40%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  img {
+    margin-bottom: 15px;
+    width: 50%;
+    height: auto;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  img {
+    margin-bottom: 20px;
+    width: 60%;
+    height: auto;
+  }
 }

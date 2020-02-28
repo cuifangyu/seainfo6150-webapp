@@ -5,25 +5,69 @@
   margin: 20px;
   padding: 10px;
   box-shadow: 1px 15px 15px rgb(80, 80, 80);
-  height: 550px;
   display: flex;
   flex-direction: column;
 }
 
 .title {
   color: #c00;
-  font-size: 30px;
   flex-grow: 1;
 }
 
 .pubDate {
   font-weight: bold;
-  font-size: 12px;
   flex-grow: 1;
 }
 
 p {
-  font-size: 15px;
   color: rgb(80, 80, 80);
   flex-grow: 1;
+}
+
+@media screen and (min-width: 400px) {
+  .container {
+    width: 250px;
+    height: 450px;
+  }
+  .title {
+    font-size: 22px;
+  }
+  .pubDate {
+    font-size: 10px;
+  }
+  p {
+    font-size: 12px;
+  }
+}
+
+@media screen and (min-width: 800px) {
+  .container {
+    width: 280px;
+    height: 500px;
+  }
+  .title {
+    font-size: 25px;
+  }
+  .pubDate {
+    font-size: 11px;
+  }
+  p {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 300px;
+    height: 550px;
+  }
+  .title {
+    font-size: 28px;
+  }
+  .pubDate {
+    font-size: 12px;
+  }
+  p {
+    font-size: 16px;
+  }
 }
